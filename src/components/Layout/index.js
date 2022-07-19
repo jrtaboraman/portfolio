@@ -1,4 +1,4 @@
-// import { Outlet } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 import Sidebar from '../Sidebar/'
 import './index.scss'
 
@@ -9,7 +9,7 @@ const Layout = () => {
       <div className="page">
         <span className="tags top-tags">&lt;body&gt;</span>
 
-        {/* <Outlet /> */}
+        <Outlet />
         <span className="tags bottom-tags">
           &lt;/body&gt;
           <br />
